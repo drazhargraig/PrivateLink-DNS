@@ -8,7 +8,7 @@ param(
     [string]$destinationResourceGroupName
 )
 
-
+# Uncomment these, fill them in, and comment out the above if you want to run it from an editor
 # Define source and destination subscriptions
 #$sourceSubscriptionId = ""
 #$destinationSubscriptionId = ""
