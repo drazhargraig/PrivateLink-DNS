@@ -10,13 +10,13 @@ param(
 
 
 # Define source and destination subscriptions
-#$sourceSubscriptionId = "68240cd6-27b6-4706-807f-be8271824764"
-#$destinationSubscriptionId = "66a2e49c-f575-4674-980e-4ac60d31f490"
+#$sourceSubscriptionId = ""
+#$destinationSubscriptionId = ""
 
 # Define the Azure Private DNS zone details
 #$zoneName = "privatelink.afs.azure.net"
-#$sourceresourceGroupName = "rg-cfsorage-dev1"
-#$destinationresourceGroupName ="rg-privatelinkdnszones-cacen-01"
+#$sourceresourceGroupName = "eg1"
+#$destinationresourceGroupName ="rg-privatelinkdnszones-01"
 
 # Set the context to the source subscription
 Set-AzContext -SubscriptionId $sourceSubscriptionId
